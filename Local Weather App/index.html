@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>local wheather</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<div class="container">
+  <h2 class="well text-center" id="hwell">Local Weather App</h2>
+<div class="row" style="padding-left:30%">
+  <div class="col-sm-2">
+<figure class="icons">
+  <canvas id="day" width="60" height="64"></canvas>
+</figure>
+  </div>
+  <div class="col-sm-2 ">
+    <div class="well text-center" id="temp">
+    </div>
+  </div>
+    <div class="col-sm-1">
+      <button class="btn btn-primary btn" id="btn1">change to &degC</button>
+  </div>
+</div>
+  <div class="row" id="rw">
+<div class="col-sm-3">
+  <div class="well text-center" id="blk1">
+
+  </div>
+  </div>
+  <div class="col-sm-3">
+   <div class="well text-center" id="blk2">
+     
+  </div>
+    </div>
+  <div class="col-sm-3 ">
+   <div class="well text-center" id="blk3">
+  </div>
+    </div>
+  </div>
+  <div class="ab">
+    <h3 style="color:white">Enter Your Location:</h3><input  type="text"required placeholder="e.g Indrana,Jabalpur" id="userInput"></input>
+<button type="submit" id="sbtn" class="btn btn-primary">Submit</button>
+</div>
+</div>
+<script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
