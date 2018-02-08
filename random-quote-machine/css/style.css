@@ -1,0 +1,39 @@
+.footer {
+  font-size:15px;
+  margin-top:0px;
+}
+h1 {
+  margin-top:2.5%;
+  color: rgb(222,184,135) ;
+  font-family:Monospace;
+  font-size: 60px;
+  text-align: center;
+}
+.block {
+  margin-top: 50px;
+  margin-left:23%;
+  margin-right: 23%;
+  border-radius: ;
+  background-color: white;
+}
+#qtblock {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom:50px;
+  font-size:40px;
+  backgorund-color:silver;
+
+}
+h4 {
+  text-align-last: right;
+}
+#nq {
+  position :relative;
+  float: right;
+  margin-right:30px;
+  margin-bottom:10px;
+}
+.btn {
+  color: white;
+}
